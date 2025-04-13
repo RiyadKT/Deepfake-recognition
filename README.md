@@ -32,8 +32,8 @@ This project aims to detect deepfake videos using video data from the **Centrale
 ---
 
 ## **Dataset**
-
-![Dataset Example](deepfake-detection-challenge/train_sample_videos/aladcziidp.mp4)  
+deepfake-detection-challenge/train_sample_videos/apatcsqejh.mp4
+![Dataset Example](images/sample_video.mp4)  
 
 - **Source**: [Kaggle Deepfake Detection Challenge](https://www.kaggle.com/competitions/deepfake-detection-challenge/data).  
 - **Structure**: Videos labeled as either "real" or "fake" in `metadata.json`.  
@@ -78,7 +78,6 @@ This project aims to detect deepfake videos using video data from the **Centrale
 
 ### **Confusion Matrix**
 ![Confusion Matrix](images/conf_matrix.png)  
-*Add the confusion matrix generated during evaluation.*
 
 - **Accuracy**: Achieved 87% accuracy on the validation set.  
 
