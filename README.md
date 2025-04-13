@@ -99,9 +99,10 @@ Below is a sample video from the dataset:
 
 ### **Requirements**
 - Install all required dependencies from the `requirements.txt` file:
-   ```bash
+   
    pip install -r requirements.txt
-
+   
+```bash
 Deepfake-recognition/
 ├── cropped_faces/                # Directory for cropped face videos
 ├── deepfake-detection-challenge/ # Dataset directory
