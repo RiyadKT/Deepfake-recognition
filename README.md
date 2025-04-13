@@ -37,7 +37,7 @@ This project aims to detect deepfake videos using video data from the **Centrale
 
 Below is a sample video from the dataset:
 
-![Sample Video](https://www.youtube.com/watch?v=h_4vV6asrMU)  
+[Watch Sample Video on YouTube](https://www.youtube.com/watch?v=h_4vV6asrMU)
 
 - **Format**: MP4, 30 FPS, 720p resolution.  
 - **Source**: [Kaggle Deepfake Detection Challenge](https://www.kaggle.com/competitions/deepfake-detection-challenge/data).  
