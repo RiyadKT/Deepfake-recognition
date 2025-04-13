@@ -33,7 +33,12 @@ This project aims to detect deepfake videos using video data from the **Centrale
 
 ## **Dataset**
 deepfake-detection-challenge/train_sample_videos/apatcsqejh.mp4
-![Dataset Example](images/sample_video.mp4)  
+![Dataset Example]
+
+<video width="640" height="360" controls>
+  <source src="images/sample_video" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 - **Source**: [Kaggle Deepfake Detection Challenge](https://www.kaggle.com/competitions/deepfake-detection-challenge/data).  
 - **Structure**: Videos labeled as either "real" or "fake" in `metadata.json`.  
