@@ -90,26 +90,31 @@ Below is a sample video from the dataset:
 
 ## **Installation**
 
-
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/deepfake-recognition.git
    cd deepfake-recognition
+   ```
 
-### **Requirements**
-- Install all required dependencies from the `requirements.txt` file:
-   
+2. Install all required dependencies from the `requirements.txt` file:
+   ```bash
    pip install -r requirements.txt
-   
+   ```
+
+---
+
+## **Project Structure**
+
 ```bash
 Deepfake-recognition/
 ├── cropped_faces/                # Directory for cropped face videos
 ├── deepfake-detection-challenge/ # Dataset directory
-├── models/                       # Saved model weights
-├── scripts/                      # Python scripts for preprocessing, training, and evaluation
-├── [README.md](http://_vscodecontentref_/0)                     # Project documentation
-├── [requirements.txt](http://_vscodecontentref_/1)              # Python dependencies
-├── [metadata.json](http://_vscodecontentref_/2)                 # Metadata for video labels
-├── [Code.ipynb](http://_vscodecontentref_/3)                    # Main notebook for the project
-└── test_Code.ipynb               # Test notebook
+├── images/                       # Directory for images (e.g., confusion matrix, banners)
+├── Code.ipynb                    # Main notebook for the project
+├── test_Code.ipynb               # Test notebook
+├── deepfake_model.pth            # Saved model weights
+├── metadata.json                 # Metadata for video labels
+├── README.md                     # Project documentation
+├── requirements.txt              # Python dependencies
+└── sample_submission.csv         # Sample submission file
+```
