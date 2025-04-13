@@ -36,7 +36,7 @@ deepfake-detection-challenge/train_sample_videos/apatcsqejh.mp4
 ![Dataset Example]
 
 <video width="640" height="360" controls>
-  <source src="images/sample_video" type="video/mp4">
+  <source src="images/sample_video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
